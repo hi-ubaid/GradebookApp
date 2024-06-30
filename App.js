@@ -1,3 +1,4 @@
+//Getting Average
 function getAverage(scores){
     let sum = 0; //variable initialized
     let average; //variable declared
@@ -12,6 +13,7 @@ function getAverage(scores){
 
 console.log(getAverage([25,45,30,20,29]))
 
+//Get Grade
 function getGrade(score) {
     if(score==100){
       return "A++";
@@ -34,3 +36,17 @@ function getGrade(score) {
   }
 
   console.log(getGrade(96));
+
+//check passing grade
+function hasPassingGrade(score) {
+    const grade = getGrade(score);
+    if (grade=="F"){
+      return "Not Yet";
+    }
+    else{
+      return "Pass";
+    }
+  }
+  
+  
+  console.log(hasPassingGrade(100));
