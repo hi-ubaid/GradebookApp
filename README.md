@@ -1,2 +1,2 @@
 # GradebookApp
-A gradebook App built using JavaScript
+A simple Gradebook App built using javaScript functions
